@@ -1,0 +1,337 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background: #c896a5;
+}
+
+.menu:hover {
+    color: black;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 428px;
+}
+
+.nav-container {
+    display: flex;
+    color: white;
+}
+
+.login-container {
+    margin-top: 15px;
+    height: 39px;
+    border-width: 1px;
+    font-size: 14px;
+}
+
+.login-container button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.login-container button:hover {
+    transform: translateY(3px);
+    transition: 0.1ms all;
+    cursor: pointer;
+}
+
+.login-contai .nav-container ul li {
+    display: inline-block;
+    color: white;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    align-items: space-around;
+    color: white;
+}
+
+.logo-wistia {
+    height: 50px;
+    width: 50px;
+}
+
+body {
+    margin: 0px;
+    font-size: 16px;
+    color: #2a2d35;
+    font-family: walshiem;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    align-items: space-between;
+    background: #c896a5;
+}
+
+.img-title {
+    width: 50%;
+    display: block;
+    margin-top: 300px;
+    padding-left: 30px;
+}
+
+.video-wistia {
+    width: 100%;
+    height: 101%;
+}
+
+.title-t {
+    color: white;
+    font-size: 20px
+}
+
+.btn {
+    font-size: 20px;
+    border: 70px;
+}
+
+.btn-txt {
+    padding: 20px 20px 20px 20px;
+}
+
+.card-container {
+    display: flex;
+    position: absolute;
+    height: 30%;
+}
+
+.card {
+    height: 200%;
+}
+
+.card1 {
+    background-color: #fed24a;
+}
+
+.card2 {
+    background-color: #51c29f;
+}
+
+.card3 {
+    background-color: #3ea9f5;
+}
+
+.img-card {
+    width: 10%;
+}
+
+
+/* .img-card2 {
+    width: 10%;
+}
+
+.img-card3 {
+    width: 10%;
+} */
+
+.btn1 {
+    background-color: #fed24a;
+}
+
+.btn1:hover {
+    background-color: white;
+    transform: translateY(3px);
+    transition: all linear 1s
+}
+
+.btn2 {
+    background-color: #51c29f;
+}
+
+.btn2:hover {
+    background-color: white;
+    transform: translateY(3px);
+    transition: all linear 1s
+}
+
+.btn3 {
+    background-color: #3ea9f5;
+}
+
+.btn3:hover {
+    background-color: white;
+    transform: translateY(3px);
+    transition: all linear 1s
+}
+
+.img-wistia {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 500px;
+    background-color: white;
+}
+
+.img1-wistia {
+    width: 100px;
+    height: 100px;
+}
+
+.pgf-wistia {
+    margin-top: 20px;
+    color: #9ca8b7;
+    font-size: 500;
+    max-width: 160px;
+}
+
+.annonce {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    margin: 125px 100px;
+    max-width: 1220px;
+    padding: 60px 0;
+}
+
+.annonce-img1 {
+    width: 319px;
+}
+
+.annonce-img2 {
+    width: 316px;
+}
+
+.annonce-img3 {
+    width: 319px;
+}
+
+.annonce-Live Channel {
+    margin: 0px 38px;
+}
+
+.annonce-001 {
+    color: #51c29f;
+    font-size: 18px;
+    margin: 38px;
+    width: 340px;
+    /* height: 150px; */
+}
+
+.link-footer {
+    background-color: #efefef;
+    padding: 25px 40px;
+    text-align: center;
+}
+
+.link-p {
+    text-decoration: underlined;
+    color: #5b6b7f;
+    font-size: 18px;
+}
+
+.bloc-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2a2d35;
+    color: white;
+}
+
+.sous-bloc1 {
+    border-right: 1px solid gray;
+    padding: 3px;
+}
+
+.sous-bloc2 {
+    display: flex;
+    align-items: center;
+}
+
+#social-media {
+    color: #56be8e;
+    text-decoration: none;
+}
+
+.logo-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10px;
+}
+
+.part2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10px;
+}
+
+.part3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10px;
+}
+
+.part4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10px;
+}
+
+.heading {
+    color: #9ca8b7;
+    font-family: 8px;
+    margin: 0px 0px 8px;
+}
+
+.link1-heading {
+    color: white;
+    text-decoration: none;
+}
+
+.link1:hover {
+    transform: translateY(3px);
+    transition: all linear 1s;
+    cursor: pointer;
+}
+
+.link2-heading {
+    color: rgb(14, 104, 187);
+    text-decoration: none;
+    display: flex;
+}
+
+.link2:hover {
+    transform: translateY(3px);
+    transition: all linear 1s;
+    cursor: pointer;
+}
+
+.link3-heading {
+    color: red;
+    text-decoration: none;
+    display: flex;
+}
+
+.link3:hover {
+    transform: translateY(3px);
+    transition: all linear 1s;
+    cursor: pointer;
+}
+
+.column-footer {
+    margin-left: 100px;
+    width: 12%;
+    margin-top: 18px;
+}
+
+.titre {
+    text-align: center;
+    background-color: #2a2d35;
+    padding: 1px;
+    color: #717274;
+}
+
+.logo-footer {
+    margin-left: 100px;
+}
